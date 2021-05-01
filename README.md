@@ -1,1 +1,3 @@
 # pong-game
+
+Language : Python
