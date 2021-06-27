@@ -112,7 +112,7 @@ while True:
     if ball.xcor() > 350:
         score_a += 1
         pen.clear()
-        pen.write("Player A: {}  Player B: {}".format(score_b, score_a),
+        pen.write("Player A: {}  Player B: {}".format(score_a, score_b),
                   align="center", font=("Courier", 24, "normal"))
         ball.goto(0, 0)
         ball.dx *= -1
@@ -121,7 +121,7 @@ while True:
     elif ball.xcor() < -350:
         score_b += 1
         pen.clear()
-        pen.write("Player A: {}  Player B: {}".format(score_b, score_a),
+        pen.write("Player A: {}  Player B: {}".format(score_a, score_b),
                   align="center", font=("Courier", 24, "normal"))
         ball.goto(0, 0)
         ball.dx *= -1
