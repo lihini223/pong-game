@@ -127,10 +127,10 @@ while True:
                   font=("Courier", 24, "normal"))
 
     # # Paddle and ball collisions
-    # if (ball.xcor() > 340 and ball.xcor() < 350) and (ball.ycor() < paddle_b.ycor() + 50 and ball.ycor() > paddle_b.ycor() - 40):
-    #     ball.setx(340)
-    #     ball.dx *= -1
+    if (ball.xcor() > 340 and ball.xcor() < 350) and (ball.ycor() < paddle_b.ycor() + 50 and ball.ycor() > paddle_b.ycor() - 40):
+        ball.setx(340)
+        ball.dx *= -1
 
-    # if (ball.xcor() < -340 and ball.xcor() > -350) and (ball.ycor() < paddle_b.ycor() + 50 and ball.ycor() > paddle_b.ycor() - 40):
-    #     ball.setx(-340)
-    #     ball.dx *= -1
+    if (ball.xcor() < -340 and ball.xcor() > -350) and (ball.ycor() < paddle_b.ycor() + 50 and ball.ycor() > paddle_b.ycor() - 40):
+        ball.setx(-340)
+        ball.dx *= -1
