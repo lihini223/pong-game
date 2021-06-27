@@ -14,3 +14,7 @@ Navigate to the project folder
 ```
 cd pong-game
 ```
+Run the game file
+```
+python pong.py
+```
