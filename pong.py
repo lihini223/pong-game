@@ -39,26 +39,26 @@ ball.dy = -2
 
 def paddle_a_up():
     y = paddle_a.ycor()
-    y += 20
+    y += 40
     paddle_a.sety(y)
 
 
 def paddle_a_down():
     y = paddle_a.ycor()
-    y -= 20
+    y -= 40
     paddle_a.sety(y)
 
 
 # Functions for move paddle_b
 def paddle_b_up():
     y = paddle_b.ycor()
-    y += 20
+    y += 40
     paddle_b.sety(y)
 
 
 def paddle_b_down():
     y = paddle_b.ycor()
-    y -= 20
+    y -= 40
     paddle_b.sety(y)
 
 
@@ -98,3 +98,7 @@ while True:
     if ball.xcor() < -390:
         ball.goto(0, 0)
         ball.dx *= -1
+
+    # Paddle and ball collisions
+    # if ball.xcor() > 340 and (ball.ycor() < paddle_b.ycor() + 50 and ball.ycor() > paddle_b.ycor() - 40):
+    #     ball.dx *= -1
