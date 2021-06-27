@@ -1,6 +1,6 @@
 # pong-game
 
-`pong-game` is a python based simple game 
+`pong-game` is a simple pygame 
 
 ## Want to run this project on your own machine?
 
@@ -22,4 +22,7 @@ python pong.py
 Executable file path : `https://github.com/lihini223/pong-game/tree/dev/dist/pong.exe`
 
 ## Download game 
+
+
+
 
