@@ -26,3 +26,7 @@ Executable file path : `https://github.com/lihini223/pong-game/tree/dev/dist/pon
 https://github.com/lihini223/pong-game/blob/main/pong.zip
 
 
+## Resources
+https://www.pygame.org/news
+https://realpython.com/pygame-a-primer/
+https://pypi.org/project/pygame/
