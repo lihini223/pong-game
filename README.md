@@ -1,3 +1,3 @@
 # pong-game
 
-Language : Python
+`pong-game` is a python based simple game 
