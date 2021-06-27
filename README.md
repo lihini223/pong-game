@@ -23,6 +23,6 @@ Executable file path : `https://github.com/lihini223/pong-game/tree/dev/dist/pon
 
 ## Download game 
 
-
+https://github.com/lihini223/pong-game/blob/main/pong.zip
 
 
