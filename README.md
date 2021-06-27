@@ -18,3 +18,5 @@ Run the game file
 ```
 python pong.py
 ```
+
+Executable file path : `https://github.com/lihini223/pong-game/tree/dev/dist`
